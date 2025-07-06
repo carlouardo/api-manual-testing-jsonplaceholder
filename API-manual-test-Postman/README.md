@@ -24,16 +24,16 @@ O repositório está organizado de forma intuitiva para facilitar a navegação 
 
 * `./`: Diretório raiz, contendo este arquivo `README.md` com a visão geral do projeto.
 * `Test-Cases/`: Contém a documentação detalhada dos cenários de teste executados.
-    * `API_Test_Results.md`: Arquivo Markdown com a descrição completa de cada cenário de teste, incluindo requisições, resultados esperados e reais, e o status da execução.
+    * `API_Test_Cases_Results.md`: Arquivo Markdown com a descrição completa de cada cenário de teste, incluindo requisições, resultados esperados e reais, e o status da execução.
 * `Evidences/`: Pasta dedicada a armazenar todas as capturas de tela (screenshots) das requisições e respostas do Postman, servindo como evidência visual dos testes executados.
-* `Postman_Collection/`: ** Esta pasta armazena o arquivo exportado da coleção do Postman. 
+* `Postman_Collection/`:  Esta pasta armazena o arquivo exportado da coleção do Postman. 
 
 ## Como Visualizar e Replicar os Testes
 
 Para explorar este projeto e replicar os testes em seu ambiente:
 
-1.  **Clone o Repositório:** Utilize o comando `git clone [URL_DO_SEU_REPOSITORIO]` em seu terminal.
-2.  **Acesse a Documentação Detalhada:** Navegue até a pasta `Test-Cases/` e abra o arquivo `API_Test_Results.md` para uma análise aprofundada dos cenários de teste e seus resultados.
+1.  **Clone o Repositório:** Utilize o comando `git clone https://github.com/carlouardo/api-manual-testing-jsonplaceholder` em seu terminal.
+2.  **Acesse a Documentação Detalhada:** Navegue até a pasta `Test-Cases/` e abra o arquivo `API_Test_Cases_Results.md` para uma análise aprofundada dos cenários de teste e seus resultados.
 3.  **Importe a Coleção Postman (Recomendado):** Se você tiver o Postman instalado e a coleção `.json` disponível na pasta `Postman_Collection/`, importe-a na ferramenta para visualizar e executar as requisições que foram testadas.
 4.  **Verifique as Evidências:** As imagens que comprovam os resultados dos testes estão organizadas na pasta `Evidences/`.
 
